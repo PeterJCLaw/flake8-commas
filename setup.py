@@ -45,6 +45,7 @@ setup(
         'Environment :: Console',
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
+        'Development Status :: 7 - Inactive',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.8',
