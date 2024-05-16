@@ -1,11 +1,25 @@
 Flake8 Extension to enforce better comma placement.
 ===================================================
 
-**Note:** Forked from PyCQA/flake8-commas to add support for Python 3.12, match
-statement, and other features. Support for Python version below 3.8 has been
-dropped, as well as older (5.x) versions of flake8.
+This is an obsolete fork of PyCQA/flake8-commas which added support for Python
+3.12, match statement, and other features. Support for Python version below 3.8
+was dropped, as well as older (5.x) versions of flake8.
 
-|Build Status| |PyPI - Version|
+**This fork is deprecated -- use flake8-commas instead.**
+
+|Build Status| |PyPI - Version| |No Maintenance Intended|
+
+Migration back to flake8-commas
+-------------------------------
+
+All users should migrate back to `flake8-commas <https://pypi.org/project/flake8-commas/>`_.
+
+As both packages unfortunately install the same module, removal of this package is required *before* installing that one:
+
+.. code:: shell
+
+    pip uninstall flake8-commas-x
+    pip install flake8-commas
 
 Usage
 -----
@@ -62,3 +76,7 @@ Examples
 
 .. |PyPI - Version| image:: https://img.shields.io/pypi/v/flake8-commas-x
    :target: https://pypi.org/project/flake8-commas-x/
+
+.. |No Maintenance Intended| image:: https://unmaintained.tech/badge.svg
+  :target: https://unmaintained.tech
+  :alt: No Maintenance Intended

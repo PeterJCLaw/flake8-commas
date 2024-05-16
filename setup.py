@@ -29,7 +29,7 @@ setup(
     version='3.0.0.post1',
     install_requires=['flake8>=5'],
     python_requires='>=3.8',
-    url='https://github.com/PeterJCLaw/flake8-commas/',
+    url='https://github.com/PeterJCLaw/flake8-commas/tree/x-main',
     long_description=readme + '\n\n' + history,
     long_description_content_type='text/x-rst',
     description='Flake8 lint for trailing commas.',
