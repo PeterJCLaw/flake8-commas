@@ -1,4 +1,4 @@
-Unreleased
+4.1.0 (2026-01-?TODO?)
 ------------------
 
 - Explicit support added for Python 3.13 and 3.14. This already worked,
